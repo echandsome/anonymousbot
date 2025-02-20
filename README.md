@@ -1,4 +1,4 @@
-# ForwardsCoverBot
+# anonymousbot
 
 This telegram bot just echoes any message you send it or modify for him. If you don't like telegram forwards, before sending a message, send the message to the bot, then forward the message that the bot returns to the user you were chatting with. In case he will forward the message, it will have the name of the bot in the forward label. It supports anything and respect the formatting style of the text.
 
@@ -11,33 +11,33 @@ To be sure that when you send messages to this bot to anonymize them it doesn't 
 **Clone and install:**
 ```
 cd path
-git clone https://github.com/91DarioDev/forwardscoverbot
-cd forwardscoverbot
+git clone https://github.com/echandsome/anonymousbot
+cd anonymousbot
 pip install .
 ```
 
 **Config the bot:**
-- open `forwardscoverbot/config/config.example.yaml`
+- open `anonymousbot/config/config.example.yaml`
 - select all and copy
-- create a file `forwardscoverbot/config/config.yaml`
+- create a file `anonymousbot/config/config.yaml`
 - paste and replace the values with real values
 - save and close
 
 **Run the bot:**
 ```
-forwardscoverbot
+anonymousbot
 ```
-Note: _In case you want to call forwardscoverbot from another path, you can, but you have to specify the path of the config.yaml file as first argument in the cli.
+Note: _In case you want to call anonymousbot from another path, you can, but you have to specify the path of the config.yaml file as first argument in the cli.
 Example:_
 
 ```
-fowardscoverbot path/forwardscoverbot/config/config.yaml
+fowardscoverbot path/anonymousbot/config/config.yaml
 ```
 
 **Upgrade the bot:**
 ```
-cd path/forwardscoverbot
-git pull https://github.com/91DarioDev/forwardscoverbot
+cd path/anonymousbot
+git pull https://github.com/echandsome/anonymousbot
 pip install --upgrade .
 ```
 
